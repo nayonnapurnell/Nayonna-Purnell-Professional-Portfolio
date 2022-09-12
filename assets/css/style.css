@@ -15,6 +15,14 @@ header {
     color: #ffffff;
 }
 
+/* Footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
 /* Horizontal Navigation Bar */
 .horizontal-nav-bar {
     padding-top: 15px;
