@@ -80,12 +80,10 @@ p{
   }
 
   /* About Me Avatar */
-
   .about-me-avatar{
     display: block;
     margin-left: auto;
     margin-right: auto; 
- 
   }
 
 /* Website Title  */
@@ -99,12 +97,14 @@ p{
 #portfolio,
 #contact
 {
-  height: 100px;
+  height: 75px;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: black;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   font-size: 56px;
+  
+
 
 }
