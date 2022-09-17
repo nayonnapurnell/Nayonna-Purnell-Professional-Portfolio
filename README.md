@@ -1,4 +1,4 @@
-# Nayonna Purnell's Portfolio
+# Nayonna Purnell's Professional Portfolio
 
 ## Project Summary
 
