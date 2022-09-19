@@ -42,7 +42,7 @@
         <div class="hero-content">
             <h1 class="hero-title">WELCOME</h1>
             <h2 class="hero-subtitle">I AM GLAD YOU'RE HERE!</h2>
-          </div>
+        </div>
     </section>
     <!-- About Me-->
     <section class="scroll-container">
@@ -83,15 +83,26 @@
     <!-- Contact -->
     <section class="scroll-container">
             <h2 class="scroll-page" id="contact">Contact</h2>
-            <figure>
-                <img src="assets/images/contact-us.jpeg" alt="black rotatary phone">
-            </figure>
-            <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe">
-              </form>
+            <div class="contact-div">
+                <figure>
+                    <img src="assets/images/contact-us.jpeg" alt="black rotatary phone">
+                </figure>
+            </div>
+            <div class="contact-div">
+                <form>
+                    <label for="fname">FIRST NAME:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">LAST NAME:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">EMAIL:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="subject">SUBJECT:</label><br>
+                    <input type="text" id="subject" name="subject"><br>
+                    <label for="message">MESSAGE:</label><br>
+                    <textarea name="message" rows="10" cols="30"></textarea>            
+                </form>
+                <button class="form-submit-button">SUBMIT</button>
+            </div>
     </section>
 </main>
     <footer>

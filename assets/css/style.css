@@ -36,7 +36,7 @@ p{
 }
 
 /* Horizontal Navigation Bar */
-.horizontal-nav-bar {
+.horizontal-nav-bar{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,22 +51,19 @@ p{
     display: inline-block;
     margin-left: 25px;
     color: black;
-    text-decoration: none;
 }
 
 /* Links on Navigation Bar change color on hover */
-
-
- .horizontal-nav-bar:after {
-    
-    transition: transform 0.25s ease-out;
+  .horizontal-nav-bar li a:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
   } 
   
-  /* .horizontal-nav-bar:hover:after {
-    
-  }  */
-
   /* Hero */
+  .hero-title, .hero-subtitle{
+    text-align: center;
+  }
 
 
 /* Navigation Scroll */
@@ -91,6 +88,25 @@ p{
     margin-right: auto; 
   }
 
+  /* Contact Form */
+  .contact-div{
+    float: left;
+    padding:15px;
+  }
+
+  .form-submit-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 /* Website Title  */
 #portfolio-name {
     display: inline-block;
@@ -109,7 +125,4 @@ p{
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   font-size: 56px;
-  
-
-
 }
