@@ -1,4 +1,4 @@
-# Nayonna Purnell's Portfolio
+# Nayonna Purnell's Professional Portfolio
 
 ## Project Summary
 
@@ -26,6 +26,6 @@ GIVEN I need to sample a potential employee's previous work
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Project Link
-Here you can find the link to the deployed application:
+Here you can find the link to the deployed application:  https://nayonnapurnell.github.io/nPurnell-Portfolio-HW2/
 
 ### License
