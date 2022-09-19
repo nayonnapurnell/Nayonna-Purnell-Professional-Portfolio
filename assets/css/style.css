@@ -47,7 +47,7 @@ p{
     position: relative;
 }
 
-.horizontal-nav-bar a{
+.horizontal-nav-bar li{
     display: inline-block;
     margin-left: 25px;
     color: black;
