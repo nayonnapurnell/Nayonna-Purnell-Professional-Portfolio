@@ -61,9 +61,19 @@ p{
   } 
   
   /* Hero */
-  .hero-title, .hero-subtitle{
+  .hero-text{
+    color: black;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    align-content: flex-end;
   }
+
+  .hero-text button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+ 
 
 
 /* Navigation Scroll */
@@ -86,7 +96,53 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto; 
+    padding-top: 20px;
   }
+  .about-me-text{
+    text-align: center;
+    line-height: 100px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+
+  Portfolio
+  .portfolio-projects {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  /* Added rotation, box-shadow, border-radius */
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
+.card p {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card h2 {
+  border-radius: 50px 50px 0px 0px;
+  padding: 20px;
+  color: black;
+}
 
   /* Contact Form */
   .contact-div{
@@ -114,6 +170,7 @@ p{
     font-family: 'Ms Madi', cursive;
 }
 /* Section Headers */
+#welcome,
 #about-me, 
 #portfolio,
 #contact

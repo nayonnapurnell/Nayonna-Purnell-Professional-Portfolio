@@ -36,50 +36,53 @@
        <nav>
     </header>
     <main>
-    <section class="hero">
-        <img class="header-background" src="./assets/images/header-background-1.jpeg" alt="Avatar" /> 
-
-        <div class="hero-content">
-            <h1 class="hero-title">WELCOME</h1>
-            <h2 class="hero-subtitle">I AM GLAD YOU'RE HERE!</h2>
-        </div>
+    <!-- Home-->
+    <section>
+        <div class="hero-text">
+            <p>WELCOME</p>
+            <p>I AM GLAD YOU'RE HERE!</p>
+            <p>LOOKING FOR A SOFTWARE DEVELOPER?</p>
+            <button><a href="mailto:nayonnapurnell@outlook.com" target="_blank">SEND ME AN EMAIL</a></button>
+        </div>  
     </section>
     <!-- About Me-->
     <section class="scroll-container">
             <h2 class="scroll-page" id="about-me">About Me</h2>
             <img class="about-me-avatar" src="./assets/images/npurnell-headshot.JPEG" alt="Avatar" />
+            <div class="about-me-text">
+                <p>
+                    I'm a software developer from Philadelphia, Pennsylvania.
+                    I am always available to discuss your project over the phone, email, or video conferencing.  
+                </p>
+            </div>
         
     </section>
     <!-- Portfolio -->
     <section class="scroll-container">
             <h2 class="scroll-page" id="portfolio">Portfolio</h2>   
-            <ul>
-                <li id="showcase-pre-work">
+            <div class="portfolio-projects">
+                <section class="card">
+                    <h2>Pre-Work</h2>
+                    <img src="./assets/images/portfolio-pic.png" alt="cartoon image of a tablet and web page" />
                     <p>Description of the Pre-Work</p>
-                    <figure>
-
-                    </figure>
-                </li>
-                <li id="showcase-portfolio">
-                    <p>Description of the Pre-Work</p>
-                    <figure>
-
-                    </figure>
-                </li>
-                <li id="showcase-coming-soon">
-                    <p>Be on the look out for more work coming soon.</p>
-                    <figure>
-
-                    </figure>
-                </li>
-                <li id="showcase-coming-soon-1">
-                    <p>Description of the Pre-Work</p>
-                    <figure>
-
-                    </figure>
-                </li>
-            </ul> 
-    </section>
+                </section>
+                <section class="card">
+                    <h2>Portfolio</h2>
+                    <img src="./assets/images/portfolio-pic.png" alt="cartoon image of a tablet and web page" />
+                    <p>Description of the Portfolio</p>
+                </section>
+                <section class="card">
+                    <h2>Flex-box styling</h2>
+                    <img src="./assets/images/portfolio-pic.png" alt="cartoon image of a tablet and web page" />
+                    <p>Description of Flex-box styling</p>
+                </section>
+                <section class="card">
+                    <h2>Project #4</h2>
+                    <img src="./assets/images/portfolio-pic.png" alt="cartoon image of a tablet and web page" />
+                    <p>Description of Project #4</p>
+                </section>
+            </div>
+    </section>        
     <!-- Contact -->
     <section class="scroll-container">
             <h2 class="scroll-page" id="contact">Contact</h2>
@@ -89,7 +92,9 @@
                 </figure>
             </div>
             <div class="contact-div">
-                <form>
+                <form method="POST"
+                action= "mailto: nayonnapurnell@outlook.com" target="_blank"
+                enctype="multipart/form-data">
                     <label for="fname">FIRST NAME:</label><br>
                     <input type="text" id="fname" name="fname"><br>
                     <label for="lname">LAST NAME:</label><br>
@@ -99,9 +104,12 @@
                     <label for="subject">SUBJECT:</label><br>
                     <input type="text" id="subject" name="subject"><br>
                     <label for="message">MESSAGE:</label><br>
-                    <textarea name="message" rows="10" cols="30"></textarea>            
+                    <textarea name="message" rows="10" cols="30"></textarea>    
+                    
+                    <div>                
+                        <button class="form-submit-button" >SUBMIT</button>
+                    </div>
                 </form>
-                <button class="form-submit-button">SUBMIT</button>
             </div>
     </section>
 </main>
