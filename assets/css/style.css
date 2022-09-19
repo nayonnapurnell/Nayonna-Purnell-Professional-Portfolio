@@ -57,19 +57,23 @@ p{
 /* Links on Navigation Bar change color on hover */
 
 
-  /* .horizontal-nav-bar:after {
+ .horizontal-nav-bar:after {
     
     transition: transform 0.25s ease-out;
-  }
+  } 
   
-  .horizontal-nav-bar:hover:after {
+  /* .horizontal-nav-bar:hover:after {
     
-  } */
+  }  */
+
+  /* Hero */
+
 
 /* Navigation Scroll */
 .scroll-container {
     overflow-y: scroll;
     scroll-behavior: smooth;
+    height: 700px;
   }
   .scroll-page {
     display: flex;
@@ -79,6 +83,7 @@ p{
     font-size: 5em;
   }
 
+  
   /* About Me Avatar */
   .about-me-avatar{
     display: block;
