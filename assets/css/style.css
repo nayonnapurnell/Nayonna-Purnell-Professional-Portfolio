@@ -123,11 +123,10 @@ p{
   border-width: 1px;
   border-radius: 50px;
   padding: 10px;
-  flex: 0 0 300px;
+  /* flex: 0 0 300px; */
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
   float: left;
-  justify-content: center;
 }
 .card p {
   text-align: center;
@@ -139,7 +138,6 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  
 }
 
 .card h2 {
@@ -189,9 +187,19 @@ p{
   font-size: 56px;
 }
 
-/* Media Screen Queries */
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }  
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
   header, main {
     flex-direction: column;
+  }
+  .card {
+    width: 100%;
   }
 }
