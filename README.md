@@ -1,31 +1,20 @@
 # Nayonna Purnell's Professional Portfolio
 
 ## Project Summary
+Welcome, my name is Nayonna Purnell.  I am a Philadelphia, PA based full-stack JavaScript developer.  Below you will find a link to my current portfolio.  For easier access, you will also find a direct link to the repo for each project.
 
-### User Story
+### Projects
+## Pre-Work
 
-AS AN employer,
-* I WANT to view a potential employee's deployed portfolio of work samples
-* SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## Portfolio
 
+## E-Commerce
+(./assets/images/ecommerce-image.png)
 
-### Acceptance Criteria
-
-GIVEN I need to sample a potential employee's previous work
-* WHEN I load their portfolio
-* THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-* WHEN I click one of the links in the navigation
-* THEN the UI scrolls to the corresponding section
-* WHEN I click on the link to the section about their work
-* THEN the UI scrolls to a section with titled images of the developer's applications
-* WHEN I am presented with the developer's first application
-* THEN that application's image should be larger in size than the others
-* WHEN I click on the images of the applications
-* THEN I am taken to that deployed application
-* WHEN I resize the page or view the site on various screens and devices
-* THEN I am presented with a responsive layout that adapts to my viewport
+## Weather App
+(./assets/images/weather-app-image.png)
 
 ### Project Link
-Here you can find the link to the deployed application:  https://nayonnapurnell.github.io/nPurnell-Portfolio-HW2/
+Here you can find the link to my deployed application:  https://nayonnapurnell.github.io/nPurnell-Portfolio-HW2/
 
 ### License
