@@ -80,7 +80,7 @@ p{
 .scroll-container {
     overflow-y: scroll;
     scroll-behavior: smooth;
-    height: 700px;
+    height: 500px;
   }
   .scroll-page {
     display: flex;
@@ -126,9 +126,12 @@ p{
   flex: 0 0 300px;
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
+  float: left;
+  justify-content: center;
 }
 .card p {
   text-align: center;
+  
 }
 
 .card img {
@@ -136,12 +139,14 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  
 }
 
 .card h2 {
   border-radius: 50px 50px 0px 0px;
   padding: 20px;
   color: black;
+ 
 }
 
   /* Contact Form */
@@ -182,4 +187,11 @@ p{
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   font-size: 56px;
+}
+
+/* Media Screen Queries */
+@media screen and (max-width: 768px) {
+  header, main {
+    flex-direction: column;
+  }
 }
