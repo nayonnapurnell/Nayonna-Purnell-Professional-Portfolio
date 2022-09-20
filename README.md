@@ -1,17 +1,18 @@
 # Nayonna Purnell's Professional Portfolio
 
 ## Project Summary
-Welcome, my name is Nayonna Purnell.  I am a Philadelphia, PA based full-stack JavaScript developer.  Below you will find a link to my current portfolio.  For easier access, you will also find a direct link to the repo for each project.
+Welcome, my name is Nayonna Purnell.  I am a Philadelphia, PA based full-stack JavaScript developer.  Below you will find a link to my current portfolio.  For easier access, you will also find a direct link to the repo for each project.  
 
-### Projects
-## Pre-Work
+## Projects
+### Pre-Work
+![](./assets/images/pre-work-image.png)
+### Portfolio
+![](./assets/images/portfolio-image.png)
 
-## Portfolio
-
-## E-Commerce
+### E-Commerce
 ![](./assets/images/ecommerce-image.png)
 
-## Weather App
+### Weather App
 ![](./assets/images/weather-app-image.png)
 
 ### Project Link
