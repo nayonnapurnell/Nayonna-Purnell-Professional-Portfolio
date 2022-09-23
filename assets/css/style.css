@@ -188,7 +188,7 @@ p{
 }
 #largest-portfolio-image{
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 /* Cards are split into two columns at 992px or smaller */
