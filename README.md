@@ -35,6 +35,6 @@ https://github.com/nayonnapurnell/databasePractice
 
 
 ### Project Link
-Here you can find the link to my deployed application:  https://nayonnapurnell.github.io/nPurnell-Portfolio-HW2/
+Here you can find the link to my deployed application:  https://nayonnapurnell.github.io/Nayonna-Purnell-Professional-Portfolio/
 
 ### License
