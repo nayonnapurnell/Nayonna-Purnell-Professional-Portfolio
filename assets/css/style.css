@@ -186,6 +186,10 @@ p{
   text-transform: uppercase;
   font-size: 56px;
 }
+#largest-portfolio-image{
+  width: 100%;
+  height: auto;
+}
 
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
